@@ -103,7 +103,7 @@
     },
     "doris_be": {
         "node_ip": [
-            "10.20.3.86"
+            "10.20.3.81"
         ],
         "deployment_path": "",
         "properties": {
