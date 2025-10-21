@@ -6,6 +6,8 @@
     
     "zookeeper": {
         "node_ip": [
+            "10.20.3.78",
+            "10.20.3.82",
             "10.20.3.78"
         ],
         "deployment_path": "",
@@ -101,7 +103,7 @@
     },
     "doris_be": {
         "node_ip": [
-            "10.20.3.82"
+            "10.20.3.86"
         ],
         "deployment_path": "",
         "properties": {
