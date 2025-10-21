@@ -165,7 +165,7 @@
             "warcs": 22001
         },
         "deployment_version": "3.0.0",
-        "remote_jobs": "__remote_jobs__",
+        "remote_jobs": "true",
         "use_nginx": "true",
         "erlang_registry_ip": "10.20.3.78",
         "java_version": "17",
