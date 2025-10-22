@@ -1,6 +1,6 @@
 {
     "user": "saksham",
-    "deployment_type": "multi",
+    "deployment_type": "single",
     "deployment_path": "/home/saksham/ODP/tools",
     "ssh_port": "22",
     
