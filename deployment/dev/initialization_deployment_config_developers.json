@@ -47,6 +47,15 @@
         "erlang_registry_ip": "192.168.10.13"
     },
     "backend_job": {
-        "node_ip": ["192.168.10.13"]
+        "node_ip": ["10.20.3.83"],
+        "ID_DESC_URL": "http://example.com/desc",
+        "ZIP_HOST_IP": "10.20.3.84",
+        "ZIP_USERNAME": "zipuser",
+        "ZIP_SSH": "false",
+        "IS_SCP_REQUIRED": "true",
+        "BACKEND_JOB_USER": "backend_user"
+    },
+    "nginx": {
+        "node_ip": "10.20.3.83"
     }
 }
