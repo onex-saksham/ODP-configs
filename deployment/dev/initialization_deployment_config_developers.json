@@ -6,31 +6,31 @@
     
     "zookeeper": {
         "node_ip": [
-            "10.20.3.83"
+            "192.168.10.13"
         ]
     },
     "kafka": {
         "broker_ip": [
-            "10.20.3.83"
+            "192.168.10.13"
         ]
     },
     "nifi": {
         "node_ip": [
-            "10.20.3.83"
+            "192.168.10.13"
         ]
     },
     "doris_fe": {
         "node_ip": [
-            "10.20.3.83"
+            "192.168.10.13"
         ]
     },
     "doris_be": {
         "node_ip": [
-            "10.20.3.83"
+            "192.168.10.13"
         ]
     },
     "monitoring": {
-        "node_ip": "10.20.3.83",
+        "node_ip": "192.168.10.13",
         "smtp": {
             "from_address": "saksham.jain@onextel.com",
             "password": "__sender_password__"
@@ -38,14 +38,14 @@
     },
     "api": {
         "node_ip": [
-            "10.20.3.83"
+            "192.168.10.13"
         ],
         "deployment_version": "3.0.0",
         "remote_jobs": "true",
         "use_nginx": "true",
-        "erlang_registry_ip": "10.20.3.83"
+        "erlang_registry_ip": "192.168.10.13"
     },
     "backend_job": {
-        "node_ip": ["10.20.3.83"]
+        "node_ip": ["192.168.10.13"]
     }
 }
