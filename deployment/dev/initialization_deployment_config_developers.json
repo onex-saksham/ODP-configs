@@ -1,4 +1,5 @@
 {
+    "base_user": "jenkins",
     "user": "saksham",
     "deployment_type": "single",
     "deployment_path": "/home/saksham/ODP/tools",
