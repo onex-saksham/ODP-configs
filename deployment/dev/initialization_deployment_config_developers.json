@@ -43,8 +43,7 @@
     "nginx": {
         "node_ip": "10.20.3.83"
     },
-    "passwords":
-    {
+    "passwords": {
         "root": "",
         "doris_read_user": "__doris_read_password__",
         "doris_write_user": "__doris_write_password__",
@@ -58,28 +57,13 @@
         "odp_git_token": "__odp_git_token__",
         "sender_password": "__sender_password__",
         "sender_email": "__sender_email__",
-        "recipients_email": ["__recipients_email__"],
-        "__node1_ip__": {
-            "root_user": "",
-            "root_password": "",
-            "new_root_password": "",
-            "deploy_user": "",
-            "deploy_password": ""
+        "recipients_email": [
+            "__recipients_email__"
+        ],
+        "smtp": {            
+            "recipients_email": [
+                "DL-ODP-OperationalInsights-TEST@onextel.com"
+            ]
         }
-    },"__node2_ip__": {
-            "root_user": "",
-            "root_password": "",
-            "new_root_password": "",
-            "deploy_user": "",
-            "deploy_password": ""
-        },
-    "smtp" :{        
-        "smtp_server": "smtp-relay.brevo.com",
-        "smtp_port": 587,
-        "smtp_email": "info@onextel.com",
-        "sender_password": "z",
-        "sender_email": "dev-info@onextel.com",
-        "recipients_email": ["DL-ODP-OperationalInsights-TEST@onextel.com"],
-        "environment":"Dev"
     }
 }
