@@ -84,20 +84,20 @@
             "new_root_password": "",
             "deploy_user": "",
             "deploy_password": ""
-        }
-    },
-    "smtp" :{
+        },
         "__node2_ip__": {
             "root_user": "",
             "root_password": "",
             "new_root_password": "",
             "deploy_user": "",
             "deploy_password": ""
-        },
+        }
+    },
+    "smtp" :{        
         "smtp_server": "smtp-relay.brevo.com",
         "smtp_port": 587,
         "smtp_email": "info@onextel.com",
-        "sender_password": "z",
+        "sender_password": "x",
         "sender_email": "dev-info@onextel.com",
         "recipients_email": ["DL-ODP-OperationalInsights-TEST@onextel.com"],
         "environment":"Dev"
