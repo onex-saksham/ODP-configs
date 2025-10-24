@@ -1,66 +1,47 @@
 {
     "base_user": "jenkins",
-    "user": "onexodp",
+    "user": "saksham",
     "deployment_type": "multi",
-    "deployment_path": "/ODP/tools",
-    "ssh_port": "22",
-    
+    "deployment_path": "ODP/tools",
+    "ssh_port": 22,
     "zookeeper": {
-        "node_ip": [
-            "10.20.3.79"
-        ]
+        "node_ip": ["10.20.3.83"]
     },
     "kafka": {
-        "broker_ip": [
-            "10.20.3.78",
-            "10.20.3.82",
-            "10.20.3.86"
-        ]
+        "broker_ip": ["10.20.3.83"]
+    },
+    "schema_registry": {
+        "node_ip": ["10.20.3.83"]
     },
     "nifi": {
-        "node_ip": [
-            " "
-        ]
+        "node_ip": ["10.20.3.83"]
     },
     "doris_fe": {
-        "node_ip": [
-            "10.20.3.80"
-        ]
+        "node_ip": ["10.20.3.83"]
     },
     "doris_be": {
-        "node_ip": [
-            "10.20.3.81",
-            "10.20.3.85",
-            "10.20.3.89"
-        ]
+        "node_ip": ["10.20.3.83"]
     },
     "monitoring": {
-        "node_ip": "10.20.3.88",
-        "smtp": {
-            "from_address": "__sender_password__",
-            "password": "__sender_password__"
-        }
+        "node_ip": "10.20.3.83"
     },
     "api": {
-        "node_ip": [
-            "10.20.3.84"
-        ],
-        "deployment_version": "3.0.0",
-        "remote_jobs": "__remote_jobs__",
-        "use_nginx": "__use_nginx__",
-        "erlang_registry_ip": "192.168.10.13"
+        "node_ip": ["10.20.3.83"],
+        "remote_jobs": "true",
+        "use_nginx": "true",
+        "erlang_registry_ip": "10.20.3.83"
     },
     "backend_job": {
-        "node_ip": ["10.20.3.84"],
-        "ID_DESC_URL": "__ID_DESC_URL__",
-        "ZIP_HOST_IP":"__ZIP_HOST_IP__",
-        "ZIP_USERNAME":"__ZIP_USERNAME__",
-        "ZIP_SSH":"__ZIP_SSH__",
-        "IS_SCP_REQUIRED":"__IS_SCP_REQUIRED__",
-        "BACKEND_JOB_USER": "__backend_JOB_USER__"
+        "node_ip": ["10.20.3.83"],
+        "ID_DESC_URL": "http://example.com/desc",
+        "ZIP_HOST_IP": "10.20.3.84",
+        "ZIP_USERNAME": "zipuser",
+        "ZIP_SSH": "false",
+        "IS_SCP_REQUIRED": "true",
+        "BACKEND_JOB_USER": "backend_user"
     },
     "nginx": {
-        "node_ip": ""
+        "node_ip": "10.20.3.83"
     },
     "passwords":
     {
@@ -84,20 +65,20 @@
             "new_root_password": "",
             "deploy_user": "",
             "deploy_password": ""
-        },
+        }
+    },
+    "smtp" :{
         "__node2_ip__": {
             "root_user": "",
             "root_password": "",
             "new_root_password": "",
             "deploy_user": "",
             "deploy_password": ""
-        }
-    },
-    "smtp" :{        
+        },
         "smtp_server": "smtp-relay.brevo.com",
         "smtp_port": 587,
         "smtp_email": "info@onextel.com",
-        "sender_password": "x",
+        "sender_password": "z",
         "sender_email": "dev-info@onextel.com",
         "recipients_email": ["DL-ODP-OperationalInsights-TEST@onextel.com"],
         "environment":"Dev"
