@@ -27,10 +27,10 @@
         "remote_jobs": "true",
         "use_nginx": "true",
         "erlang_registry_ip": "10.20.3.149",
-        "is_sa_seperate": "__is_sa_seperate__",
-        "max_download_rows": "__max_download_rows__",
-        "erlang_registry_url": "__erlang_registry_url__",
-        "heartbeat_interval": "__heartbeat_interval__"
+        "is_sa_seperate": "true",
+        "max_download_rows": "1000",
+        "erlang_registry_url": "google.com",
+        "heartbeat_interval": "10"
     },
     "backend_job": {
         "node_ip": ["10.20.3.149"],
@@ -40,7 +40,7 @@
         "ZIP_SSH": "false",
         "IS_SCP_REQUIRED": "true",
         "BACKEND_JOB_USER": "backend_user",
-        "query_batch_size": "__query_batch_size__"
+        "query_batch_size": "10"
     },
     "nginx": {
         "node_ip": "10.20.3.149"
