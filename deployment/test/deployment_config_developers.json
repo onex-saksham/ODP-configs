@@ -47,7 +47,7 @@
     },
         "smtp": {            
             "recipients_email": [
-                "DL-ODP-OperationalInsights-TEST@onextel.com"
+                "saksham.jain@onextel.com"
             ]
         }
 }
