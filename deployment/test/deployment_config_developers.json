@@ -23,6 +23,7 @@
         "node_ip": "10.20.3.149"
     },
     "api": {
+        "deployment_version": "3.0.0",
         "node_ip": ["10.20.3.149"],
         "remote_jobs": "true",
         "use_nginx": "true",
