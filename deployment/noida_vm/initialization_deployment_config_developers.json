@@ -1,62 +1,42 @@
 {
-    "deployment_path": "/home/saksham",
+    "deployment_path": "/data/ODP/tools",
     "ssh_port": 22,
+
     "zookeeper": {
-        "node_ip": ["192.168.10.13"]
+        "node_ip": [""]
     },
+
     "kafka": {
-        "broker_ip": ["192.168.10.13"]
+        "broker_ip": [""]
     },
+
     "schema_registry": {
-        "node_ip": ["192.168.10.13"]
+        "node_ip": [""]
     },
+
     "nifi": {
-        "node_ip": ["192.168.10.13"]
+        "node_ip": [""]
     },
+
     "doris_fe": {
         "node_ip": ["192.168.10.13"]
     },
+
     "doris_be": {
         "node_ip": ["192.168.10.13"]
     },
+
     "monitoring": {
-        "node_ip": "192.168.10.13"
+        "node_ip": ""
     },
-    "api": {
-        "node_ip": ["192.168.10.13"],
-        "remote_jobs": "true",
-        "use_nginx": "true",
-        "erlang_registry_ip": "192.168.10.13",
-        "is_sa_seperate": "__is_sa_seperate__",
-        "max_download_rows": "__max_download_rows__",
-        "erlang_registry_url": "__erlang_registry_url__",
-        "heartbeat_interval": "__heartbeat_interval__"
-    },
-    "backend_job": {
-        "node_ip": ["192.168.10.13"],
-        "ID_DESC_URL": "http://example.com/desc",
-        "ZIP_HOST_IP": "192.168.10.13",
-        "ZIP_USERNAME": "zipuser",
-        "ZIP_SSH": "false",
-        "IS_SCP_REQUIRED": "true",
-        "BACKEND_JOB_USER": "backend_user",
-        "query_batch_size": "__query_batch_size__"
-    },
+
     "nginx": {
-        "node_ip": "192.168.10.13"
+        "node_ip": ""
     },
-    "passwords": {
-        "root": "",
-        "sms_read_user": "__sms_read_password__",
-        "rcs_read_user": "__rcs_read_password__",
-        "wa_read_user": "__wa_read_password__",
-        "sender_password": "__sender_password__",
-        "sender_email": "__sender_email__",
-        "ZIP_PASSWORD": "__ZIP_PASSWORD__"
-        },
-        "smtp": {            
-            "recipients_email": [
-                "DL-ODP-OperationalInsights-TEST@onextel.com"
-            ]
-        }
+
+    "smtp": {            
+        "recipients_email": [
+            ""
+        ]
+    }
 }
