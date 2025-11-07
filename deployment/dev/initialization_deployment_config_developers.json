@@ -2,10 +2,10 @@
     "deployment_path": "/home/saksham",
     "ssh_port": 22,
     "zookeeper": {
-        "node_ip": ["10.20.3.83"]
+        "node_ip": ["10.20.3.79","10.20.3.84","10.20.3.88"]
     },
     "kafka": {
-        "broker_ip": ["10.20.3.83"]
+        "broker_ip": ["10.20.3.78","10.20.3.82","10.20.3.86"]
     },
     "schema_registry": {
         "node_ip": ["10.20.3.83"]
