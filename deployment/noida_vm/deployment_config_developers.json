@@ -3,19 +3,19 @@
     "ssh_port": 22,
 
     "zookeeper": {
-        "node_ip": [""]
+        "node_ip": ["192.168.10.13"]
     },
 
     "kafka": {
-        "broker_ip": [""]
+        "broker_ip": ["192.168.10.13"]
     },
 
     "schema_registry": {
-        "node_ip": [""]
+        "node_ip": ["192.168.10.13"]
     },
 
     "nifi": {
-        "node_ip": [""]
+        "node_ip": ["192.168.10.13"]
     },
 
     "doris_fe": {
@@ -27,16 +27,16 @@
     },
 
     "monitoring": {
-        "node_ip": ""
+        "node_ip": "192.168.10.13"
     },
 
     "nginx": {
-        "node_ip": ""
+        "node_ip": "192.168.10.13"
     },
 
     "smtp": {            
         "recipients_email": [
-            ""
+            "192.168.10.13"
         ]
     }
 }
