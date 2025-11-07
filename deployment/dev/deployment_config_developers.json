@@ -1,5 +1,5 @@
 {
-    "deployment_path": "/home/saksham",
+    "deployment_path": "/data/ODP/tools",
     "ssh_port": 22,
     "zookeeper": {
         "node_ip": ["10.20.3.79","10.20.3.84","10.20.3.88"]
